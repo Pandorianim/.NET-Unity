@@ -1,0 +1,16 @@
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.exe
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.deps.json
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.runtimeconfig.json
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.runtimeconfig.dev.json
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.dll
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\ref\l6.dll
+C:\Users\jansk\source\repos\l6\l6\bin\Debug\net5.0\l6.pdb
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.csproj.AssemblyReference.cache
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.AssemblyInfoInputs.cache
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.AssemblyInfo.cs
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.csproj.CoreCompileInputs.cache
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.dll
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\ref\l6.dll
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.pdb
+C:\Users\jansk\source\repos\l6\l6\obj\Debug\net5.0\l6.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.exe
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.deps.json
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.runtimeconfig.json
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.runtimeconfig.dev.json
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.dll
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\ref\l5zad2.dll
+C:\Users\jansk\source\repos\l5zad2\l5zad2\bin\Debug\net5.0\l5zad2.pdb
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.csproj.AssemblyReference.cache
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.AssemblyInfoInputs.cache
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.AssemblyInfo.cs
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.csproj.CoreCompileInputs.cache
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.dll
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\ref\l5zad2.dll
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.pdb
+C:\Users\jansk\source\repos\l5zad2\l5zad2\obj\Debug\net5.0\l5zad2.genruntimeconfig.cache
