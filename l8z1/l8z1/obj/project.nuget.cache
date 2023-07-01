@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "VxZG/7AJavTBt9AWx/UEeIhhO2RjNkhVTMvsoqT819U4z1h4/PIdaTzVukQxfReJ71RvsP99KrhNOugDJIslpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jansk\\source\\repos\\l8z1\\l8z1\\l8z1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jansk\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.1\\microsoft.aspnetcore.jsonpatch.5.0.1.nupkg.sha512",
+    "C:\\Users\\jansk\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.1.nupkg.sha512",
+    "C:\\Users\\jansk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\jansk\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jansk\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

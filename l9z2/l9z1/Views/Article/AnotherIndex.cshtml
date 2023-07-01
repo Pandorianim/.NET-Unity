@@ -1,0 +1,13 @@
+﻿@model IEnumerable<l9z1.ViewModels.Article>
+@{
+    ViewBag.Title = "Another Index";
+}
+
+<h2>@ViewBag.Title</h2>
+<table>
+    @foreach (var item in Model)
+    {
+        //Html.RenderPartial("_Student", item);
+        await Html.RenderPartialAsync("_Article", item);
+    }
+</table>

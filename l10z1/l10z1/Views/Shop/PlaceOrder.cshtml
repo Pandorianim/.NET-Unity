@@ -1,0 +1,130 @@
+﻿@model l10z1.ViewModels.OrderViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Cart";
+}
+<h1>Placing order</h1>
+<h2>Your order</h2>
+@if (Model.Items.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Items.First().Article.Name)
+                </th>
+                <th style="text-align: right">
+                    @Html.DisplayNameFor(model => model.Items.First().Article.Price)
+                </th>
+                <th style="text-align: center">
+                    @Html.DisplayNameFor(model => model.Items.First().Article.Photo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Items.First().Article.Category)
+                </th>
+                <th></th>
+                <th style="text-align: right">
+                    @Html.DisplayNameFor(model => model.Items.First().Quantity)
+                </th>
+                <th></th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Article.Name)
+                    </td>
+                    <td style="text-align: right">
+                        @Html.DisplayFor(modelItem => item.Article.Price)
+                    </td>
+                    <td style="text-align: center">
+                        <img class="img-thumbnail my-thumbnail" src="@Html.DisplayFor(modelItem => item.Article.Photo)" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Article.Category.Name)
+                    </td>
+                    <td>
+                    </td>
+                    <td style="text-align: center">
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="row">
+        <h3 style="text-align: right; margin: 0 45px">Total: @ViewBag.Total</h3>
+
+        @*        @if (SignInManager.IsSignedIn(User))
+            {
+                <button type="submit" class="btn btn-primary" style="align-content: end">Place order</button>
+            }
+            else
+            {
+                <p style="color: red">To place an order log in first.</p>
+            }*@
+
+
+    </div>
+    <hr />
+    <h2>Order details</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="ConfirmOrder">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Name:</label>
+                    <input  asp-for="Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Surname" class="control-label">Surname:</label>
+                    <input asp-for="Surname" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email:</label>
+                    <input asp-for="Email" type="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label">Phone number:</label>
+                    <input asp-for="Phone" type="tel" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Address:</label>
+                    <input asp-for="Address" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="PostCode" class="control-label">Post code:</label>
+                    <input asp-for="PostCode" type="text" pattern="[0-9]{5}" title="Five digit zip code" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Payment" class="control-label">Payment method:</label>
+                    <select asp-for="Payment" class="form-control" asp-items="ViewBag.methods"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Confirm order" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+@*    @using (Html.BeginForm("PlaceOrder", "Shop", FormMethod.Get))
+    {
+        <button type="submit" class="btn btn-primary" style="align-content: end">Confirm placing order</button>
+    }*@
+
+}
+else
+{
+    <h2 style="text-align: center; margin-top: 50px;">Your cart is empty.</h2>
+}

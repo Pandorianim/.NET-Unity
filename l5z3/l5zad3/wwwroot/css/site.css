@@ -1,0 +1,40 @@
+﻿.borders {
+    background-color: yellow;
+}
+
+.odd {
+    background-color: orange;
+}
+
+.even {
+    background-color: lime;
+}
+
+.by3 {
+    background-color: blue;
+}
+
+td {
+    border: 2px solid;
+    border-color: blueviolet;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.errorUserInput {
+    color: red;
+}
+
+.okUserInput {
+    color: green;
+}
+
+#multiplyTable {
+    border: 1px;
+}
+
+.canvas {
+    border: 3px solid blue;
+    box-sizing: border-box;
+}
